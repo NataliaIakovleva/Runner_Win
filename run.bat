@@ -38,7 +38,7 @@ SLEEP 3
 CALL mvn package
 ECHO.
 ECHO Start executing Java programm ...
-java -cp %WS_DIR%\%REPO_NAME%\target\%APP_NAME% %MAIN_CLASS% 
+java -cp %WS_DIR%\%REPO_NAME%\target\%APP_NAME% %MAIN_CLASS% win
 GOTO END
  
 :EXIT_JAVA
